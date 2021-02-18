@@ -1,0 +1,14 @@
+.slideRight-enter {
+  transform: translateX(100%);
+}
+.slideRight-enter-active {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+.slideRight-exit {
+  transform: translateX(0);
+}
+.slideRight-exit-active {
+  transform: translateX(-100%);
+  transition: all 500ms linear;
+}

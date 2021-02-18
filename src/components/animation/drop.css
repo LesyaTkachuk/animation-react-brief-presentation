@@ -1,0 +1,23 @@
+.drop-appear {
+  transform: translateY(-100%);
+}
+
+.drop-appear-active {
+  transform: translateY(0);
+  transition: all 1000ms linear;
+}
+
+.drop-enter {
+  transform: translateY(-100%);
+}
+.drop-enter-active {
+  transform: translateY(0);
+  transition: all 1000ms linear;
+}
+.drop-exit {
+  transform: translateY(0);
+}
+.drop-exit-active {
+  transform: translateY(-100%);
+  transition: all 1000ms linear;
+}

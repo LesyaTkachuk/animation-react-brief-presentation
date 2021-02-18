@@ -1,0 +1,14 @@
+.fadeImg-enter {
+  opacity: 0;
+}
+.fadeImg-enter-active {
+  opacity: 1;
+  transition: all 600ms linear;
+}
+.fadeImg-exit {
+  opacity: 1;
+}
+.fadeImg-exit-active {
+  opacity: 0;
+  transition: all 600ms linear;
+}

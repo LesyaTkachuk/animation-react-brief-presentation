@@ -1,0 +1,21 @@
+.fadeAndScale-enter {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  
+  .fadeAndScale-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 350ms linear;
+  }
+  
+  .fadeAndScale-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .fadeAndScale-exit-active {
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 350ms linear;
+  }

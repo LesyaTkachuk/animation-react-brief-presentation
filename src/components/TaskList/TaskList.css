@@ -1,0 +1,18 @@
+.fadeTask-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+.fadeTask-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 500ms linear;
+}
+.fadeTask-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.fadeTask-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 500ms linear;
+}

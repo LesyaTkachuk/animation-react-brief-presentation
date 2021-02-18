@@ -1,0 +1,18 @@
+.dropAndFade-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.dropAndFade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1000ms linear;
+}
+.dropAndFade-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+.dropAndFade-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 1000ms linear;
+}

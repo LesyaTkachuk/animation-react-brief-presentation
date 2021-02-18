@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+
+  &_item {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .list_link {
+    color: #ffffff;
+  }
+
+  .list_activeLink {
+    color: #92255b;
+    text-decoration: underline;
+  }
+}

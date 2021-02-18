@@ -1,0 +1,28 @@
+.swipper {
+  position: relative;
+  width: 660px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.controls {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button {
+  margin-right: 20px;
+}
+
+.disabled {
+  composes: button;
+  background-color: rgba(180, 180, 180, 0.719);
+}

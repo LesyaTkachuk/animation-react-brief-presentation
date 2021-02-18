@@ -1,0 +1,18 @@
+.Section-anim-appear {
+  transform: translateX(-100%);
+}
+
+.Section-anim-appear-active {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+
+.SubNavigation-anim-enter {
+  transform: scale(0.2);
+  opacity: 0;
+}
+.SubNavigation-anim-enter-active {
+  transform: scale(1);
+  opacity: 1;
+  transition: all 500ms linear;
+}

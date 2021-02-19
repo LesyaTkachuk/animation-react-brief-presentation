@@ -115,6 +115,18 @@ class Tasker extends Component {
           onRemoveTask={this.removeTask}
           onUpdateTask={this.updateCompleted}
         />
+        <CSSTransition
+          in={tasks.length === 0}
+          timeout={500}
+          classNames="fadeAndScale"
+          unmountOnExit
+        >
+          <img
+            className="waiter"
+            src="https://s.tcdn.co/4ce/580/4ce58078-ce94-370f-8abb-836a56b5fa0b/2.png"
+            alt="waiter"
+          />
+        </CSSTransition>
       </Section>
     );
   }

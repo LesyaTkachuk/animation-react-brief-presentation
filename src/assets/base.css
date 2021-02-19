@@ -54,3 +54,13 @@ input {
 a {
   text-decoration: none;
 }
+
+.waiter {
+  position: absolute;
+  top: 120px;
+}
+.background {
+  height: 100vh;
+  background: url("../images/bells-field-and-house.jpg") center no-repeat;
+  background-size: cover;
+}

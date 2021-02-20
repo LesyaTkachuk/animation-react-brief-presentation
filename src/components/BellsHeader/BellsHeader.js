@@ -17,14 +17,14 @@ function BellsHeader({ stage }) {
       >
         <BellsLogo />
       </CSSTransition>
-      {/* <CSSTransition
+      <CSSTransition
         in={stage === "entered"}
         classNames="dropAndFade"
         timeout={1000}
         unmountOnExit
       >
         <BellsTeam />
-      </CSSTransition> */}
+      </CSSTransition>
     </div>
   );
 }
